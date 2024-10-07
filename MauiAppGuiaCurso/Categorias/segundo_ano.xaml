@@ -1,6 +1,18 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppGuiaCurso.Categorias.segundo_ano">
-
-</ResourceDictionary>
+             x:Class="MauiAppGuiaCurso.Categorias.Segundo_ano"
+             Title="Segundo_ano">
+    <VerticalStackLayout>
+        <ScrollView>
+            <Grid RowDefinitions="300, 300, 300"
+              ColumnDefinitions="*, *"
+              Padding="5">
+                <Button Grid.Column="0" Grid.Row="0" x:Name="btnMobile1" Text="Programação de Aplicativos Mobile 1" Clicked="btnMobile1_Clicked"/>
+                <Button Grid.Column="1" Grid.Row="0" x:Name="btnBanco2" Text="Banco de Dados 2" Clicked="btnBanco2_Clicked" />
+                <Button Grid.Column="0" Grid.Row="1" x:Name="btnDs" Text="Desenvolvimento de Sistemas " Clicked="btnDs_Clicked" />
+                <Button Grid.Column="1" Grid.Row="1" x:Name="btnProgramacaoweb2" Text="Programação Web 2" Clicked="btnProgramacaoweb2_Clicked" />
+            </Grid>
+        </ScrollView>
+    </VerticalStackLayout>
+</ContentPage>

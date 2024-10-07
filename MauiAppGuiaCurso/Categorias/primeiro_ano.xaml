@@ -1,22 +1,23 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppGuiaCurso.Categorias.primeiro_ano">
-
+             x:Class="MauiAppGuiaCurso.Categorias.Primeiro_ano"
+             Title="Primeiro_ano">
+    
     <VerticalStackLayout>
         <ScrollView>
             <Grid RowDefinitions="300, 300, 300"
                   ColumnDefinitions="*, *"
                   Padding="5">
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
-                             Source="" x:Name=""
-                             Clicked="" />
-                <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="0" Source="" x:Name="" Clicked="" />
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="1" Source="" x:Name="" Clicked="" />
-                <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="1" Source="" x:Name="" Clicked="" />
+                <Button Grid.Column="0" Grid.Row="0" x:Name="btnProgramacaoweb1" Text="Programação Web 1" Clicked="btnProgramacaoweb1_Clicked"/>
+                <Button Grid.Column="1" Grid.Row="0" x:Name="btnDesigndigital" Text="Design Digital" Clicked="btnDesigndigital_Clicked" />
+                <Button Grid.Column="0" Grid.Row="1" x:Name="btnAlgoritmo" Text="Técnicas de Programação e Algoritmos" Clicked="btnAlgoritmo_Clicked" />
+                <Button Grid.Column="1" Grid.Row="1" x:Name="btnBanco1" Text="Banco de Dados 1"  Clicked="btnBanco1_Clicked" />
+                <Button Grid.Column="0" Grid.Row="2" x:Name="btnFundamentos" Text="Fundamentos da Informática" Clicked="btnFundamentos_Clicked" />
+                <Button Grid.Column="1" Grid.Row="2" x:Name="btnAnalise" Text="Análise e Projeto de Sistemas" Clicked="btnAnalise_Clicked" />
+                
 
             </Grid>
         </ScrollView>
     </VerticalStackLayout>
-
-</ResourceDictionary>
+</ContentPage>

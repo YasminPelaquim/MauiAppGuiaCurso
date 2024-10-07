@@ -1,6 +1,20 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppGuiaCurso.Categorias.terceiro_ano">
-
-</ResourceDictionary>
+             x:Class="MauiAppGuiaCurso.Categorias.Terceiro_ano"
+             Title="Terceiro_ano">
+    <VerticalStackLayout>
+        <ScrollView>
+            <Grid RowDefinitions="300, 300, 300"
+              ColumnDefinitions="*, *"
+              Padding="5">
+                <Button Grid.Column="0" Grid.Row="0" x:Name="btnProgramacaoweb3" Text="Programação Web 3" Clicked="btnProgramacaoweb3_Clicked" />
+                <Button Grid.Column="1" Grid.Row="0" x:Name="btnMobile3" Text="Programação de Aplicativos Mobile 3" Clicked="btnMobile3_Clicked" />
+                <Button Grid.Column="0" Grid.Row="1" x:Name="btnInternet" Text="Internet, Protocolo e Segurança de Sistemas da Informação" Clicked="btnInternet_Clicked" />
+                <Button Grid.Column="1" Grid.Row="1" x:Name="btnTcc" Text="Planejamento e Desenvolvimento do Trabalho de Conclusão de Curso" Clicked="btnTcc_Clicked" />
+                <Button Grid.Column="0" Grid.Row="2" x:Name="btnQualidade" Text="Qualidade e Teste de Software" Clicked="btnQualidade_Clicked" />
+                <Button Grid.Column="1" Grid.Row="2" x:Name="btnSistemas" Text="Sistemas Embarcados" Clicked="btnSistemas_Clicked" />
+            </Grid>
+        </ScrollView>
+    </VerticalStackLayout>
+</ContentPage>
