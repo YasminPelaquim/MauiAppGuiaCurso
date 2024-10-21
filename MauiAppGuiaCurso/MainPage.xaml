@@ -3,35 +3,36 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppGuiaCurso.MainPage">
 
-        <ContentPage.Resources>
-            <ResourceDictionary>
-                <Style x:Key="EstiloComum" TargetType="Button">
-                    <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
-                    <Setter Property="VerticalOptions" Value="Center"/>
-                    <Setter Property="FontSize" Value="40"/>
-                    <Setter Property="TextColor" Value="Black"/>
-                </Style>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="EstiloComum" TargetType="Button">
+                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="FontSize" Value="40"/>
+                <Setter Property="TextColor" Value="Black"/>
+            </Style>
 
-                <Style x:Key="Botao" TargetType="Button" BasedOn="{StaticResource EstiloComum}">
-                    <Setter Property="BackgroundColor" Value="DarkSlateBlue"/>
-                </Style>
-            </ResourceDictionary>
-        </ContentPage.Resources>
+            <Style x:Key="Botao" TargetType="Button" BasedOn="{StaticResource EstiloComum}">
+                <Setter Property="BackgroundColor" Value="DarkSlateBlue"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
 
     <ContentPage.Content>
-    <Grid RowDefinitions="*" ColumnDefinitions="*">
-        <Label Grid.Row="0" Grid.Column="0" Text="Desenvolvimento de Sistemas" FontSize="Header" />
-    </Grid>
 
-    <Grid RowDefinitions="100, 100, 100, 100, 100, 100"
+        <Grid RowDefinitions="100, 100, 100, 100, 100, 100, 100"
           ColumnDefinitions="*, *, *" ColumnSpacing="10" RowSpacing="1" Margin="10">
 
-        <Button Grid.Row="2" Grid.Column="1" Style="{StaticResource Botao}" x:Name="primeiro_ano" Text="1º Ano" Clicked="primeiro_ano_Clicked" />
-        
-        <Button Grid.Row="3" Grid.Column="1" Style="{StaticResource Botao}" x:Name="segundo_ano" Text="2º Ano" Clicked="segundo_ano_Clicked" />
+            <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"
+                   HorizontalTextAlignment="Center"
+                   Text="Desenvolvimento de Sistemas" FontSize="Header" />
+            
+            <Button Grid.Row="1" Grid.Column="1" Style="{StaticResource Botao}" x:Name="primeiro_ano" Text="1º Ano" Clicked="primeiro_ano_Clicked" />
 
-        <Button Grid.Row="4" Grid.Column="1" Style="{StaticResource Botao}" x:Name="terceiro_ano" Text="3º Ano" Clicked="terceiro_ano_Clicked" />
-    </Grid>
+            <Button Grid.Row="2" Grid.Column="1" Style="{StaticResource Botao}" x:Name="segundo_ano" Text="2º Ano" Clicked="segundo_ano_Clicked" />
+
+            <Button Grid.Row="3" Grid.Column="1" Style="{StaticResource Botao}" x:Name="terceiro_ano" Text="3º Ano" Clicked="terceiro_ano_Clicked" />
+        </Grid>
     </ContentPage.Content>
 
 

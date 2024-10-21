@@ -3,11 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppGuiaCurso.Categorias.Terceiro_ano"
              Title="Terceiro_ano">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="grid" TargetType="Grid">
+                <Setter Property="Margin" Value="70"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
     <VerticalStackLayout>
         <ScrollView>
-            <Grid RowDefinitions="300, 300, 300"
-              ColumnDefinitions="*, *"
-              Padding="5">
+            <Grid RowDefinitions="80, 80, 80, 80, 80, 80"
+                  ColumnDefinitions="400"
+                  Padding="5" 
+                  RowSpacing="10"
+                  ColumnSpacing="10"
+                  Style="{StaticResource grid}">
                 <Button Grid.Column="0" Grid.Row="0" x:Name="btnProgramacaoweb3" Text="Programação Web 3" Clicked="btnProgramacaoweb3_Clicked" />
                 <Button Grid.Column="1" Grid.Row="0" x:Name="btnMobile3" Text="Programação de Aplicativos Mobile 3" Clicked="btnMobile3_Clicked" />
                 <Button Grid.Column="0" Grid.Row="1" x:Name="btnInternet" Text="Internet, Protocolo e Segurança de Sistemas da Informação" Clicked="btnInternet_Clicked" />

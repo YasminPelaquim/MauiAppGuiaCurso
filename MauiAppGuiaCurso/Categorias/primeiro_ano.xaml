@@ -9,8 +9,6 @@
             <Style x:Key="grid" TargetType="Grid">
                 <Setter Property="Margin" Value="70"/>
             </Style>
-
-            
         </ResourceDictionary>
     </ContentPage.Resources>
 
