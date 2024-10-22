@@ -14,18 +14,20 @@
 
     <VerticalStackLayout>
         <ScrollView >
-            <Grid RowDefinitions="80, 80, 80, 80, 80, 80"
+            <Grid RowDefinitions="80, 80, 80, 80, 80, 80, 80"
                   ColumnDefinitions="400"
                   Padding="5" 
                   RowSpacing="10"
                   ColumnSpacing="10"
-                  Style="{StaticResource grid}">
-                <Button Grid.Column="0" Grid.Row="0" x:Name="btnProgramacaoweb1" Text="Programação Web 1" Clicked="btnProgramacaoweb1_Clicked"/>
-                <Button Grid.Column="0" Grid.Row="1" x:Name="btnDesigndigital" Text="Design Digital" Clicked="btnDesigndigital_Clicked" />
-                <Button Grid.Column="0" Grid.Row="2" x:Name="btnAlgoritmo" Text="Técnicas de Programação e Algoritmos" Clicked="btnAlgoritmo_Clicked" />
-                <Button Grid.Column="0" Grid.Row="3" x:Name="btnBanco1" Text="Banco de Dados 1"  Clicked="btnBanco1_Clicked" />
-                <Button Grid.Column="0" Grid.Row="4" x:Name="btnFundamentos" Text="Fundamentos da Informática" Clicked="btnFundamentos_Clicked" />
-                <Button Grid.Column="0" Grid.Row="5" x:Name="btnAnalise" Text="Análise e Projeto de Sistemas" Clicked="btnAnalise_Clicked" />
+                  Style="{StaticResource grid}"
+                  HorizontalOptions="Center">
+                <Label Grid.Row="0" Grid.Column="0" Text="Matérias do primeiro ano:" FontSize="Header" />
+                <Button Grid.Column="0" Grid.Row="1" x:Name="btnProgramacaoweb1" Text="Programação Web 1" Clicked="btnProgramacaoweb1_Clicked"/>
+                <Button Grid.Column="0" Grid.Row="2" x:Name="btnDesigndigital" Text="Design Digital" Clicked="btnDesigndigital_Clicked" />
+                <Button Grid.Column="0" Grid.Row="3" x:Name="btnAlgoritmo" Text="Técnicas de Programação e Algoritmos" Clicked="btnAlgoritmo_Clicked" />
+                <Button Grid.Column="0" Grid.Row="4" x:Name="btnBanco1" Text="Banco de Dados 1"  Clicked="btnBanco1_Clicked" />
+                <Button Grid.Column="0" Grid.Row="5" x:Name="btnFundamentos" Text="Fundamentos da Informática" Clicked="btnFundamentos_Clicked" />
+                <Button Grid.Column="0" Grid.Row="6" x:Name="btnAnalise" Text="Análise e Projeto de Sistemas" Clicked="btnAnalise_Clicked" />
 
 
             </Grid>

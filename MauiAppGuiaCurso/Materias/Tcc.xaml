@@ -4,9 +4,13 @@
              x:Class="MauiAppGuiaCurso.Materias.Tcc"
              Title="Tcc">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <ScrollView>
+            <Grid ColumnDefinitions="*" RowDefinitions="*, *, *, *" Margin="10" RowSpacing="10">
+                <Label Grid.Row="0" Grid.Column="0" Text="Planejamento e Desenvolvimento do Trabalho de Conclusão de Curso" HorizontalOptions="Center" FontSize="Header"/>
+                <Label Grid.Row="1" Grid.Column="0" Text="imagem" FontSize="Body"/>
+                <Label Grid.Row="2" Grid.Column="0" Text=" textinho sobre" HorizontalOptions="Center" FontSize="Body"/>
+            </Grid>
+        </ScrollView>
     </VerticalStackLayout>
+    
 </ContentPage>
