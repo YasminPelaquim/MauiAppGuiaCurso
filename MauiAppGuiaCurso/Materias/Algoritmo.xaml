@@ -6,10 +6,26 @@
 
     <VerticalStackLayout>
         <ScrollView>
-            <Grid ColumnDefinitions="*" RowDefinitions="*, *, *, *" Margin="10" RowSpacing="10">
+            <Grid ColumnDefinitions="*" RowDefinitions="*, *, *, *, *, *, *, *, *, *, *, *, *, *, *, *, *, *, *, *" Margin="10" RowSpacing="10">
                 <Label Grid.Row="0" Grid.Column="0" Text="Técnicas de Programação e Algoritmos" HorizontalOptions="Center" FontSize="Header"/>
-                <Label Grid.Row="1" Grid.Column="0" Text="imagem" FontSize="Body"/>
-                <Label Grid.Row="2" Grid.Column="0" Text=" textinho sobre" HorizontalOptions="Center" FontSize="Body"/>
+                
+                <Label Grid.Row="2" Grid.Column="0" Text="Atribuições: Elaboração de programas, utilizando linguagens de programação" HorizontalOptions="Center" FontSize="30"/>
+                
+                <Label Grid.Row="5" Grid.Column="0" Text="Habilidades: " FontSize="25" />
+                <Label Grid.Row="6" Grid.Column="0" Text=" - Elaborar algoritmos." FontSize="20" />
+                <Label Grid.Row="7" Grid.Column="0" Text=" - Codificar programas, utilizando técnica de programação estruturada." FontSize="20" />
+                <Label Grid.Row="8" Grid.Column="0" Text=" - Depurar e versionar programas, utilizando ambiente de desenvolvimento integrado." FontSize="20" />
+                
+                <Label Grid.Row="10" Grid.Column="0" Text="Bases Tecnológicas: " FontSize="25" />
+                <Label Grid.Row="11" Grid.Column="0" Text=" - Princípios de programação," FontSize="20" />
+                <Label Grid.Row="12" Grid.Column="0" Text=" - Comandos da linguagem de programação," FontSize="20" />
+                <Label Grid.Row="13" Grid.Column="0" Text=" - Programação estruturada," FontSize="20" />
+                <Label Grid.Row="14" Grid.Column="0" Text=" - Ferramentas para o desenvolvimento," FontSize="20" />
+                <Label Grid.Row="15" Grid.Column="0" Text=" - Verificação e depuração de código," FontSize="20" />
+                <Label Grid.Row="16" Grid.Column="0" Text=" - Programação modular," FontSize="20" />
+                <Label Grid.Row="17" Grid.Column="0" Text=" - Tipos de dados estruturados" FontSize="20" />
+                <Label Grid.Row="18" Grid.Column="0" Text=" - Versionamento," FontSize="20" />
+                <Label Grid.Row="19" Grid.Column="0" Text=" - Práticas de programação." FontSize="20" />
             </Grid>
         </ScrollView>
     </VerticalStackLayout>

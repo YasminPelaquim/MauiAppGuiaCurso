@@ -6,12 +6,34 @@
 
     <VerticalStackLayout>
         <ScrollView>
-            <Grid ColumnDefinitions="*" RowDefinitions="*, *, *, *" Margin="10" RowSpacing="10">
+            <Grid ColumnDefinitions="*" RowDefinitions="*, *, *, *, *, *, *, *, *, *, *, *, *, *, *, *, *, *, *, *, *, *, *, *, *, *, *" Margin="10" RowSpacing="10">
                 <Label Grid.Row="0" Grid.Column="0" Text="Banco de Dados 1" HorizontalOptions="Center" FontSize="Header"/>
-                <Label Grid.Row="1" Grid.Column="0" Text="imagem" FontSize="Body"/>
-                <Label Grid.Row="2" Grid.Column="0" Text=" textinho sobre" HorizontalOptions="Center" FontSize="Body"/>
+
+                <Label Grid.Row="2" Grid.Column="0" Text="Atribuições: Modelar banco de dados" HorizontalOptions="Center" FontSize="30"/>
+
+                <Label Grid.Row="5" Grid.Column="0" Text="Habilidades: " FontSize="25" />
+                <Label Grid.Row="6" Grid.Column="0" Text=" - Levantar as necessidades de informações do sistema." FontSize="20" />
+                <Label Grid.Row="7" Grid.Column="0" Text=" - Normalizar tabelas de bancos de dados." FontSize="20" />
+                <Label Grid.Row="8" Grid.Column="0" Text=" - Associar as tabelas para construção de banco de dados." FontSize="20" />
+                <Label Grid.Row="9" Grid.Column="0" Text=" - Aplicar linguagem SQL na construção de tabelas." FontSize="20" />
+
+                <Label Grid.Row="11" Grid.Column="0" Text="Bases Tecnológicas: " FontSize="25" />
+                <Label Grid.Row="12" Grid.Column="0" Text=" - Estrutura de banco de dados," FontSize="20" />
+                <Label Grid.Row="13" Grid.Column="0" Text=" - Modelo conceitual," FontSize="20" />
+                <Label Grid.Row="14" Grid.Column="0" Text=" - Dicionário de dados," FontSize="20" />
+                <Label Grid.Row="15" Grid.Column="0" Text=" - Metodologia CASE," FontSize="20" />
+                <Label Grid.Row="16" Grid.Column="0" Text=" - Modelo lógico," FontSize="20" />
+                <Label Grid.Row="17" Grid.Column="0" Text=" - Grau de cardinalidade," FontSize="20" />
+                <Label Grid.Row="18" Grid.Column="0" Text=" - Conceitos de autorelacionamento," FontSize="20" />
+                <Label Grid.Row="19" Grid.Column="0" Text=" - Normalização de tabelas," FontSize="20" />
+                <Label Grid.Row="20" Grid.Column="0" Text=" - Especialização e generallização," FontSize="20" />
+                <Label Grid.Row="21" Grid.Column="0" Text=" - Conceito de domínio, " FontSize="20" />
+                <Label Grid.Row="22" Grid.Column="0" Text=" - Conceito de tabela," FontSize="20" />
+                <Label Grid.Row="23" Grid.Column="0" Text=" - Construção de projeto lógico de banco de dados," FontSize="20" />
+                <Label Grid.Row="24" Grid.Column="0" Text=" - Construção de tabelas," FontSize="20" />
+                <Label Grid.Row="25" Grid.Column="0" Text=" - Introdução ao SGBD SQL (Server)" FontSize="20" />
             </Grid>
         </ScrollView>
     </VerticalStackLayout>
-    
+
 </ContentPage>

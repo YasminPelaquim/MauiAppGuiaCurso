@@ -6,12 +6,25 @@
 
     <VerticalStackLayout>
         <ScrollView>
-            <Grid ColumnDefinitions="*" RowDefinitions="*, *, *, *" Margin="10" RowSpacing="10">
-                <Label Grid.Row="0" Grid.Column="0" Text="Banco de Dados 2" HorizontalOptions="Center" FontSize="Header"/>
-                <Label Grid.Row="1" Grid.Column="0" Text="imagem" FontSize="Body"/>
-                <Label Grid.Row="2" Grid.Column="0" Text=" textinho sobre" HorizontalOptions="Center" FontSize="Body"/>
+            <Grid ColumnDefinitions="*" RowDefinitions="*, *, *, *, *, *, *, *, *, *, *, *, *, *, *, *" Margin="10" RowSpacing="10">
+                <Label Grid.Row="0" Grid.Column="0" Text="Banco de dados 2" HorizontalOptions="Center" FontSize="Header"/>
+
+                <Label Grid.Row="2" Grid.Column="0" Text="Atribuições: Implementar e realizar gestão de banco de dados" HorizontalOptions="Center" FontSize="30"/>
+
+                <Label Grid.Row="5" Grid.Column="0" Text="Habilidades: " FontSize="25" />
+                <Label Grid.Row="6" Grid.Column="0" Text=" - Utilizar sistema de gerenciamento para banco de dados" FontSize="20" />
+                <Label Grid.Row="7" Grid.Column="0" Text=" - Executar linguagem de consulta estruturada, objetivando melhor desempenho" FontSize="20" />
+                <Label Grid.Row="8" Grid.Column="0" Text=" - Compilar relatórios analíticos a partir dos dados coletados" FontSize="20" />
+
+                <Label Grid.Row="10" Grid.Column="0" Text="Bases Tecnológicas: " FontSize="25" />
+                <Label Grid.Row="11" Grid.Column="0" Text=" - Implementação de banco de dados," FontSize="20" />
+                <Label Grid.Row="12" Grid.Column="0" Text=" - Variáveis e constantes," FontSize="20" />
+                <Label Grid.Row="13" Grid.Column="0" Text=" - Comandos SQL" FontSize="20" />
+                <Label Grid.Row="14" Grid.Column="0" Text=" - Linguagem de definição de dados," FontSize="20" />
+                <Label Grid.Row="15" Grid.Column="0" Text=" - Linguagem de manipulação de dados" FontSize="20" />
+                <Label Grid.Row="16" Grid.Column="0" Text=" - Linguagem de consulta de dados," FontSize="20" />
             </Grid>
         </ScrollView>
     </VerticalStackLayout>
-    
+
 </ContentPage>
